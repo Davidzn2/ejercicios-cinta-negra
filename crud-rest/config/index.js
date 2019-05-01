@@ -10,7 +10,7 @@ const config = {
     port: process.env.PORT,
 
     db: {
-     url:`mongodb+srv://${dbData.dbUser}:${dbData.dbPassword}@${dbData.dbHost}/${dbData.dbName}?retryWrites=true`
+     url:`mongodb://127.0.0.1:27017/authTest`
     }
 }
 
